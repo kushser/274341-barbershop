@@ -3,23 +3,25 @@ font-size: 14px;
 line-height: 24px;
 font-weight: bold;
 color: #000000;
-font-family: PT Sans Narrow, Serif;
+font-family: PT Sans Narrow, Arial, sans-serif;
+min-width: 1122px;
+ min-height: 1750px;
+ margin: 0;
+ padding: 0;
 }
 h1{
 font-size: 30px;
 line-height: 42px;
 font-weight: bold;
 color: #000000;
-font-family:  PT Sans Narrow, Serif;
-margin-top: 52px;
-margin-bottom: 22px;
+font-family:  PT Sans Narrow, Arial, sans-serif;
 }
 h2{
 font-size: 30px;
 line-height: 42px;
 font-weight: bold;
 color: #000000;
-font-family: PT Sans Narrow, Serif;
+font-family: PT Sans Narrow, Arial, sans-serif;
 }
 .clearfix::after{
   content: "";
@@ -27,13 +29,12 @@ font-family: PT Sans Narrow, Serif;
   clear: both;
 }
 .shop-header{
-  min-height: 72px;
+  margin-bottom: 24px;
 }
 .container{
   width: 940px;
   margin: 0 auto;
   padding: 0 10px;
-  min-height: 72px
 }
 .header-logo{
   min-height: 72px;
@@ -53,21 +54,23 @@ font-family: PT Sans Narrow, Serif;
   float: right;
 }
 .breadcrumbs{
-  min-height: 20px;
-  width: 900px;
-  margin-bottom: 22px:
+  min-height: 102px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 52px:
 }
 .content-left{
-  min-height: 571px;
+  min-height: 574px;
   width: 167px;
   float:left;
 }
 .content-right{
-  min-height: 731px;
+  min-height: 694px;
   width: 700px;
   float:right;
 }
 .main-footer{
+  margin-top: 36px;
   padding-top: 60px;
   padding-bottom: 40px;
 }
@@ -87,32 +90,37 @@ font-family: PT Sans Narrow, Serif;
   width: 180px;
   float: right;;
 }
+.product-header{
+  margin-bottom: 24px;
+}
 .gallery{
-  min-height: 718px;
+  min-height: 689px;
   width: 460px;
   float:left;
+  margin-right: 20px;
 }
 .product-description{
-  min-height: 718px;
+  min-height: 222px;
+  float:left;
   width: 460px;
-  float:right;
+  margin-bottom: 36px;
 }
 .price{
-  min-height: 718px;
+  min-height: 44px;
+  float:left;
   width: 460px;
-  float:right;
+ margin-bottom: 64px;
 }
 .composition{
-  min-height: 718px;
+  min-height: 324px;
+  float:left;
   width: 460px;
-  float:right;
-
 }
 .gallery-big{
-  min-height: 498px;
+  min-height: 504px;
   margin-bottom: 21px;
 }
 .gallery-smal{
-  min-height: 149px;
-  margin-bottom: 49px;
+  min-height: 164px;
+  padding-bottom: 15px;
 }
