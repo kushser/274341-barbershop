@@ -3,19 +3,116 @@ font-size: 14px;
 line-height: 24px;
 font-weight: bold;
 color: #000000;
-font-family: : PT Sans Narrow, Serif;
+font-family: PT Sans Narrow, Serif;
 }
 h1{
 font-size: 30px;
 line-height: 42px;
 font-weight: bold;
 color: #000000;
-font-family: :  PT Sans Narrow,, Serif;
+font-family:  PT Sans Narrow, Serif;
+margin-top: 52px;
+margin-bottom: 22px;
 }
 h2{
 font-size: 30px;
 line-height: 42px;
 font-weight: bold;
 color: #000000;
-font-family: : PT Sans Narrow,, Serif;
+font-family: PT Sans Narrow, Serif;
+}
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.shop-header{
+  min-height: 72px;
+}
+.container{
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  min-height: 72px
+}
+.header-logo{
+  min-height: 72px;
+  width: 140px;
+  float:left;
+  margin-right: 20px;
+}
+.main-navigation{
+  min-height: 72px;
+  width: 620px;
+  float: left;
+  margin-right: 20px;
+}
+.user-block{
+  min-height: 72px;
+  width: 140px;
+  float: right;
+}
+.breadcrumbs{
+  min-height: 20px;
+  width: 900px;
+  margin-bottom: 22px:
+}
+.content-left{
+  min-height: 571px;
+  width: 167px;
+  float:left;
+}
+.content-right{
+  min-height: 731px;
+  width: 700px;
+  float:right;
+}
+.main-footer{
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.footer-contacts{
+  min-height: 90px;
+  width: 320px;
+  float: left;
+  margin-right: 60px;
+}
+.footer-social{
+  min-height: 90px;
+  width: 180px;
+  float: left;
+}
+.footer-copyright{
+  min-height: 90px;
+  width: 180px;
+  float: right;;
+}
+.gallery{
+  min-height: 718px;
+  width: 460px;
+  float:left;
+}
+.product-description{
+  min-height: 718px;
+  width: 460px;
+  float:right;
+}
+.price{
+  min-height: 718px;
+  width: 460px;
+  float:right;
+}
+.composition{
+  min-height: 718px;
+  width: 460px;
+  float:right;
+
+}
+.gallery-big{
+  min-height: 498px;
+  margin-bottom: 21px;
+}
+.gallery-smal{
+  min-height: 149px;
+  margin-bottom: 49px;
 }
