@@ -65,16 +65,16 @@ line-height: 42px;
   padding-bottom: 40px;
 }
 .footer-contacts{
-  width: 320px;
+  width: 310px;
   float: left;
-  margin-right: 60px;
+  margin-right: 10px;
 }
 .footer-social{
-  width: 180px;
+  width: 310px;
   float: left;
 }
 .footer-copyright{
-  width: 180px;
+  width: 300px;
   float: right;;
 }
 .product-header{
@@ -110,9 +110,6 @@ line-height: 42px;
 }
 .foto{
   display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto;
   float:left;
   margin-right: 10px;
 }
